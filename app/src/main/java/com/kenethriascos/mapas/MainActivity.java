@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         //CameraPosition target = CameraPosition.builder().target(pasto).zoom(15).build(); // saber donde se ponra esa ubicacion y que sum tendra
 
         //m_map.moveCamera(CameraUpdateFactory.newCameraPosition(target)); // a objeto mapa vaya y establesca toda la configuraion
-
         //m_map.animateCamera(CameraUpdateFactory.newCameraPosition(),10000, null);
         changuePosition(PASTO);
     }
